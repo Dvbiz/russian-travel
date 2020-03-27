@@ -1,0 +1,5 @@
+@import url(_big/subtitle_big.css);
+@import url(_small/subtitle_small.css);
+@import url(_normal/subtitle_normal.css);
+
+.subtitle {}

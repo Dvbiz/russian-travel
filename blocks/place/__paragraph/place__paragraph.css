@@ -1,0 +1,18 @@
+.place__paragraph {
+    margin-top: 0;
+    font-size: 18px;
+    line-height: 30px;
+}
+@media (max-width: 1024px) {
+    .place__paragraph {
+        margin-bottom: 25px;
+    }
+}
+@media (max-width: 768px) {
+    .place__paragraph {
+        font-size: 16px;
+        margin-bottom: 35px;
+        line-height: 27px;
+        margin-top: -10px;
+    }
+}

@@ -1,0 +1,16 @@
+.title_mid {
+    font-size: 54px;
+    line-height: 58px;
+    margin: 0;
+}
+
+@media (max-width: 375px) {
+    .title_mid {
+        font-size: 32px;
+        line-height: 35px;
+    }
+}
+
+@media (max-width: 320px) {
+
+}

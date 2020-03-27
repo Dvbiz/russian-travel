@@ -1,0 +1,28 @@
+.video-item__icon {
+    width: 41px;
+    height: 41px;
+    top: 30px;
+    left: 30px;
+    background-image: url('../../../images/icon_play.svg');
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    z-index: 2;
+}
+
+@media (max-width: 768px) {
+    .video-item__icon {
+        top: 25px;
+    }
+}
+@media (max-width: 375px) {
+    .video-item__icon {
+        left: 25px;
+    }
+}
+@media (max-width: 320px) {
+    .video-item__icon {
+        left: 16px;
+        top: 16px;
+    }
+}

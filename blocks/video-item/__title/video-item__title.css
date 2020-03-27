@@ -1,0 +1,22 @@
+.video-item__title {
+    width: 322px;
+    z-index: 2;
+    margin: 0;
+    margin-top: 10px;
+    font-size: 36px;
+    line-height: 39px;
+    position: relative;
+}
+@media (max-width: 1024px) {
+    .video-item__title {
+        margin-top: 10px;
+    }
+}
+@media (max-width: 768px) {
+    .video-item__title {
+        font-size: 24px;
+        line-height: 26px;
+        margin-bottom: -10px;
+        margin-top: 5px;
+    }
+}

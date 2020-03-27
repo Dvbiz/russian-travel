@@ -1,0 +1,34 @@
+@import url(__subtitle/cover__subtitle.css);
+@import url(__title/cover__title.css);
+@import url(__container/cover__container.css);
+
+.cover {
+    margin-top: 72px;
+}
+.cover:hover {
+    cursor: pointer;
+}
+.cover:hover .cover__container::before {
+    opacity: 0.5;
+    transition: opacity 0.2s linear;
+}
+@media (max-width: 1024px) {
+    .cover {
+        margin-top: 90px;
+    }
+}
+@media (max-width: 768px) {
+    .cover {
+        margin-top: 55px;
+    }
+}
+@media (max-width: 375px) {
+    .cover {
+        margin-top: 5px;
+    }
+}
+@media (max-width: 320px) {
+    .cover {
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,15 @@
+.lead__subtitle {
+    width: 50%;
+    margin: 35px auto 0;
+}
+
+@media (max-width: 768px) {
+    .lead__subtitle {
+        width: 90%;
+    }
+}
+@media (max-width: 375px) {
+    .lead__subtitle {
+        margin-top: 13px;
+    }
+}

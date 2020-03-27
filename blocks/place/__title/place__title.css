@@ -1,0 +1,18 @@
+.place__title {
+    width: 50%;
+    margin-top: 5px;
+    line-height: 65px;
+}
+@media (max-width: 768px) {
+    .place__title {
+        box-sizing: border-box;
+        padding-right: 50%;
+        line-height: 46px;
+    }
+}
+@media (max-width: 375px) {
+    .place__title {
+        width: 100%;
+        padding: 0;
+    }
+}

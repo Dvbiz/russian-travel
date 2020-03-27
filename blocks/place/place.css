@@ -1,0 +1,16 @@
+@import url(__paragraph/place__paragraph.css);
+@import url(__image/place__image.css);
+@import url(__website/place__website.css);
+@import url(__row/place__row.css);
+@import url(__website-url/place__website-url.css);
+@import url(__website-link/place__website-link.css);
+@import url(__title/place__title.css);
+@import url(__text/place__text.css);
+.place {
+    padding-top: 20px
+}
+@media (max-width: 1024px) {
+    .place {
+        padding: 0;
+    }
+}

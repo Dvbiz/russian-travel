@@ -1,0 +1,15 @@
+.intro__title {
+    margin-bottom: 35px;
+}
+@media (max-width: 375px) {
+    .intro__title {
+        max-width: 60%;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 320px) {
+    .intro__title {
+        margin-bottom: 40px;
+        max-width: 75%;
+    }
+}

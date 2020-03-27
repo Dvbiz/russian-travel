@@ -1,0 +1,16 @@
+.comment__quote {
+    margin: 40px 0 0 0;
+    font-size: 14px;
+    line-height: 23px;
+}
+.comment__quote::before, .comment__quote::after {
+    content: '"'
+}
+@media (max-width: 768px) {
+    .comment__quote {
+        font-size: 16px;
+        line-height: 23px;
+        order: 2;
+        margin-top: 0;
+    }
+}
