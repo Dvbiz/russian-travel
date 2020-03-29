@@ -1,6 +1,7 @@
 .title_big {
     margin: 0;
     font-size: 72px;
+    font-weight: bold;
 }
 
 @media (max-width: 1024px) {

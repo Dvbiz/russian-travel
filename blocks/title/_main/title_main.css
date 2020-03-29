@@ -2,15 +2,9 @@
     font-size: 96px;
     line-height: 92px;
     text-align: center;
+    font-weight: bold;
 }
 
-@media (max-width: 1024px) {
-
-}
-
-@media (max-width: 768px) {
-
-}
 
 @media (max-width: 670px) {
     .title_main {
@@ -26,6 +20,3 @@
     }
 }
 
-@media (max-width: 320px) {
-
-}

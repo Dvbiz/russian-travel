@@ -2,7 +2,7 @@
 @import url(__title/intro__title.css);
 @import url(__text/intro__text.css);
 @import url(__list/intro__list.css);
-@import url(__text/_col/intro__text_col_left.css);
+@import url(__text/_col/intro__text_col.css);
 @import url(__text-bold/intro__text-bold.css);
 
 .intro {

@@ -1,16 +1,16 @@
-.intro__text_col_left {
+.intro__text_col {
     line-height: 23px;
     width: 72%;
     padding-right: 15px;
     font-size: 14px;
 }
 @media (max-width: 768px) {
-    .intro__text_col_left {
+    .intro__text_col {
         width: 100%;
     }
 }
 @media (max-width: 375px) {
-    .intro__text_col_left {
+    .intro__text_col {
         font-size: 16px;
         line-height: 27px;
         padding-right: 0;
