@@ -12,7 +12,7 @@
 }
 .cover__container::before {
     display: block;
-    background-color: #000000;
+    background-color: #2A2C2F;
     opacity: 0.3;
     z-index: 2;
     position: absolute;
