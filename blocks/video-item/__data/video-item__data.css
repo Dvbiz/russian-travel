@@ -1,9 +1,8 @@
 .video-item__data {
     display: flex;
     flex-direction: column;
+    left: 30px;
     bottom: 30px;
-    padding-left: 30px;
-    bottom: 15px;
     justify-content: flex-end;
     position: absolute;
 }
